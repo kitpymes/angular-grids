@@ -1,0 +1,46 @@
+ [
+  {
+    "id": 0,
+    "nombre": "Green Park",
+    "habitacion": 0,
+    "wifi":0,
+    "piscina": 2,
+    "ubicacion": 3,
+    "parking": 3,
+    "gym": 0,
+    "actividades": 0
+  },
+  {
+    "id": 1,
+    "nombre": "Servatur",
+    "habitacion": 3,
+    "wifi":0,
+    "piscina": 2,
+    "ubicacion": 3,
+    "parking": 3,
+    "gym": 0,
+    "actividades": 0
+  },
+  {
+    "id": 2,
+    "nombre": "Green Park",
+    "habitacion": 0,
+    "wifi":0,
+    "piscina": 2,
+    "ubicacion": 3,
+    "parking": 3,
+    "gym": 0,
+    "actividades": 0
+  },
+  {
+    "id": 3,
+    "nombre": "Servatur",
+    "habitacion": 3,
+    "wifi":0,
+    "piscina": 2,
+    "ubicacion": 3,
+    "parking": 3,
+    "gym": 0,
+    "actividades": 0
+  }
+]

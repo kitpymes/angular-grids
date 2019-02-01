@@ -1,0 +1,13 @@
+<mat-form-field class="mat-search_field" [@slideInOut]="searchVisible" fxFlex>
+  <input #searchInput matInput type="text" placeholder="" [(ngModel)]="value"
+    (ngModelChange)="updateChanges()"
+    (blur)="onBlurring(searchInput.value)"
+    (keyup.enter)="onEnterring(searchInput.value)"
+    (focus)="onFocussing(searchInput.value)"
+  />
+</mat-form-field>
+
+<span class="mat-search_icons" [class.mat-search_icons--active]="searchVisible">
+  <mat-icon class="mat-search_icon-close" (click)="close()" matRipple>close</mat-icon>
+  <mat-icon class="mat-search_icon-search" (click)="open()" matRipple>search</mat-icon>
+</span>

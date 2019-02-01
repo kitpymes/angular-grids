@@ -1,0 +1,20 @@
+<header>
+  <mat-toolbar color="primary">
+    <span>Hoteles</span>
+    <span class="spacer"></span>
+    <mat-search [(ngModel)]="searchValue" (ngModelChange)="onSearchChange()"></mat-search>
+  </mat-toolbar>
+
+</header>
+
+<main>
+  <ag-grid-angular #hotelesGrid class="ag-theme-material"></ag-grid-angular>
+</main>
+
+<footer>
+  <mat-toolbar color='primary'>
+    <span class='spacer'></span>
+      <p>© Copyright Kitpymes 2017</p>
+    <span class='spacer'></span>
+  </mat-toolbar>
+</footer>
